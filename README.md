@@ -1,29 +1,54 @@
 # Collaborative Code/Note Editor
-  
-This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
- You can find docs about Chef with useful information like how to deploy to production [here](https://docs.convex.dev/chef).
-  
-This project is connected to the Convex deployment named [`acrobatic-fly-949`](https://dashboard.convex.dev/d/acrobatic-fly-949).
-  
-## Project structure
-  
-The frontend code is in the `app` directory and is built with [Vite](https://vitejs.dev/).
-  
-The backend code is in the `convex` directory.
-  
-`npm run dev` will start the frontend and backend servers.
 
-## App authentication
+ *COMPANY*: CODTECH IT SOLUTIONS
 
-Chef apps use [Convex Auth](https://auth.convex.dev/) with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
+*NAME*: ADITYA KADAM
 
-## Developing and deploying your app
+*INTERN ID*: CT08DL378
 
-Check out the [Convex docs](https://docs.convex.dev/) for more information on how to develop with Convex.
-* If you're new to Convex, the [Overview](https://docs.convex.dev/understanding/) is a good place to start
-* Check out the [Hosting and Deployment](https://docs.convex.dev/production/) docs for how to deploy your app
-* Read the [Best Practices](https://docs.convex.dev/understanding/best-practices/) guide for tips on how to improve you app further
+*DOMAIN*: SOFTWARE DEVELOPMENT
 
-## HTTP API
+*DURATION*: 8 WEEKS
 
-User-defined http routes are defined in the `convex/router.ts` file. We split these routes into a separate file from `convex/http.ts` to allow us to prevent the LLM from modifying the authentication routes.
+*MENTOR*: NEELA SANTOSH
+
+ 
+## Project Description
+The Collaborative Code & Note Editor is a real-time web application that allows multiple users to write and edit code or notes collaboratively. It is designed to simulate an environment similar to online coding platforms or shared note editors, enabling users to collaborate remotely and efficiently. The system is lightweight, responsive, and works in the browser with no need for additional plugins.
+
+## Project Objective
+The main objective of this project is to build a web-based editor that supports real-time collaboration for writing and editing code or text. The focus is on delivering seamless synchronization between users, intuitive UI, and fast updates using efficient socket-based communication. It aims to simplify remote teamwork for developers, students, and professionals.
+
+## Technologies Used
+1.Frontend: HTML, CSS, JavaScript
+
+2.Backend: Node.js
+
+3.Communication: WebSockets using Socket.io
+
+4.Runtime Environment: Node.js
+
+5.Libraries & Tools: Express.js, Socket.io, NPM
+
+## Key Features
+1.Real-Time Collaboration: Edits made by one user are reflected instantly for all users in the same session.
+
+2.Multi-User Support: Multiple users can connect to a shared room and edit content simultaneously.
+
+3.Live Synchronization: The application uses socket events to ensure low-latency communication and real-time data transfer.
+
+4.Simple Interface: A clean, distraction-free UI makes it easy to focus on content.
+
+5.Cross-Browser Compatibility: Works smoothly across all modern browsers.
+
+## Use Case
+1.Remote pair programming between developers.
+
+2.Collaborative note-taking during virtual meetings, coding interviews, or study sessions.
+
+3.Live coding demonstrations or workshops.
+
+4.Team collaboration on technical documentation.
+
+## Real-World Application
+This project can serve as a foundation for more complex tools like collaborative IDEs, shared markdown editors, or online classrooms. With enhancements like authentication, file-saving capabilities, syntax highlighting, or support for multiple languages, it can evolve into a fully-fledged cloud-based development platform similar to tools like Replit or Visual Studio Code Live Share. In academic or remote work settings, it facilitates teamwork and productivity without the need for complex infrastructure.
